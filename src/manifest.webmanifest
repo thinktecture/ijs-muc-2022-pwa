@@ -9,5 +9,12 @@
     "icons": [{
         "src": "icon.png",
         "sizes": "512x512"
+    }],
+    "shortcuts": [{
+        "name": "About Paint",
+        "short_name": "About",
+        "description": "Show information about Paint",
+        "url": "/about.html",
+        "icons": [{ "src": "icon.png", "sizes": "512x512" }]
     }]
 }
