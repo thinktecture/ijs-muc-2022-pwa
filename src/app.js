@@ -96,3 +96,9 @@ if ('launchQueue' in window) {
         }
     });
 }
+
+btnSave.disabled = !('showSaveFilePicker' in window);
+btnOpen.disabled = !('showOpenFilePicker' in window);
+btnCopy.disabled = !('clipboard' in navigator && 'write' in navigator.clipboard);
+btnPaste.disabled = !('clipboard' in navigator && 'read' in navigator.clipboard);
+btnShare.disabled = !('canShare' in navigator);
